@@ -1,6 +1,7 @@
 # SwiftChibiHash
 - Swift wrapper for [Chibi-hash](https://github.com/N-R-K/ChibiHash)
- 
+- The algorithm only supports a single session; you cannot hash discontinuous data together.
+
 ## Usage
 - Declare dependency in Package.swift, `Package(...,`:
     - `dependencies: `

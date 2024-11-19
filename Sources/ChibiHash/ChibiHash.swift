@@ -5,6 +5,8 @@ import ChibiHashLib
 /// For details, see [chibi-hash on github](https://github.com/N-R-K/ChibiHash)
 /// 
 /// Limitations
+/// - Algorithm supports only a single session; 
+///   cannot hash discontinuous data together
 /// - Indirection interferes with inlining
 public enum ChibiHasher {
   public static let SEED = UInt64(42)
